@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Chatbot Triết Học</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="tab-links">
+                <div class="tab-link active" data-tab="huvo"><span class="tab-icon">🌀</span><span class="tab-text">Như Có Như Không</span></div>
+                <div class="tab-link" data-tab="biquan"><span class="tab-icon">🕯️</span><span class="tab-text">Buồn Thì Cứ Khóc</span></div>
+                <div class="tab-link" data-tab="khacky"><span class="tab-icon">🌅</span><span class="tab-text">Tâm Lặng Như Nước</span></div>
+                <div class="tab-link" data-tab="hien_sinh"><span class="tab-icon">🌱</span><span class="tab-text">Một Đời Trọn Vẹn</span></div>
+                <div class="tab-link" data-tab="maclenin"><span class="tab-icon">📖</span><span class="tab-text">Đồng Cam Cộng Hưởng</span></div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="header">
+                <h1>Đồng Hành Cùng Các "Triết Gia" AI</h1>
+                <p>Khám phá các trường phái triết học qua cuộc trò chuyện sâu sắc</p>
+            </div>
+            
+            <div class="chat-wrapper">
+                <div class="chatbox" id="chatbox"></div>
+                <div class="input-area">
+                    <input type="text" id="question_input" placeholder="Nhập suy ngẫm của bạn vào đây...">
+                    <button id="send_btn">Gửi</button>
+                </div>
+            </div>
+        </div>
+        <button class="dark-toggle" id="dark-mode-toggle">💡</button>
+    </div>
+
+    <script src="/static/js/chat.js"></script>
+</body>
+</html>
