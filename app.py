@@ -1,4 +1,3 @@
-# app.py
 import os
 import uuid
 from fastapi import FastAPI, Request, HTTPException
